@@ -27,6 +27,19 @@ library(reshape2)
 library(xgboost)
 library(caTools)
 ```
+### Let us take a glance at our dataset.
+
+``` r
+head(auto.claims)
+```
+
+    ##      STATE CLASS GENDER AGE    PAID
+    ## 1 STATE 14   C6       M  97 1134.44
+    ## 2 STATE 15   C6       M  96 3761.24
+    ## 3 STATE 15   C11      M  95 7842.31
+    ## 4 STATE 15   F6       F  95 2384.67
+    ## 5 STATE 15   F6       M  95  650.00
+    ## 6 STATE 15   F6       M  95  391.12
 
 Univariate Analysis
 -------------------
